@@ -1,7 +1,13 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Link } from 'react-router-dom';
+import { Container } from './styles';
 
-const Inside: React.FC = () => <h1>Inside</h1>;
+const Inside: React.FC = () => (
+  <Container>
+    <h1>Inside</h1>
+    <Link to="/door">Go inside</Link>
+  </Container>
+);
 
 export default Inside;

@@ -6,22 +6,21 @@ import { Container } from './styles';
 const Door: React.FC = () => {
   const [canGetInside, setCanGetInside] = useState(false);
   const handleGoingInside = async () => {
-    const response = await axios.get('https://api.github.com/repos/Lucas-Fonte/the-door/contents/src/App.css?ref=master');
+    const response = await axios.get('https://api.github.com/repos/Lucas-Fonte/the-door/contents/src/response.json');
     const { data } = response;
 
     const buff = Buffer.from(data.content, 'base64');
-    const jsonResponse = buff.toString('utf-8');
+    const jsonResponse = JSON.parse(buff.toString('utf-8'));
 
-    console.log({ jsonResponse });
-    // if (data.content) {
-    //   setCanGetInside(true);
-    // }
+    if (jsonResponse.allowed) {
+      setCanGetInside(true);
+    }
   };
   return (
     <Container>
       { canGetInside ? (
         <Redirect to={{
-          pathname: 'door/inside',
+          pathname: '/inside',
           state: { canGetInside },
         }}
         />

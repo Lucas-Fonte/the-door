@@ -6,17 +6,17 @@ import {
 interface PrivateRouteProps extends RouteProps {
     component: React.FC;
 }
-
 const PrivateRoute = ({
   component: Component,
   location,
   ...rest
 }: PrivateRouteProps) => {
-  const authorization = !!location?.state;
+  const { canGetInside }: any = location?.state || {};
+
   return (
     <Route
       {...rest}
-      render={() => (authorization ? <Component /> : <Redirect to="/door" />)}
+      render={() => (canGetInside ? <Component /> : <Redirect to="/door" />)}
     />
   );
 };

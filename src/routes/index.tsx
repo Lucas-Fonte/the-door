@@ -8,7 +8,7 @@ export default function Routes() {
   return (
     <Switch>
       <PublicRoute path="/door" component={Door} />
-      <PrivateRoute path="/door/inside" component={Inside} />
+      <PrivateRoute path="/inside" component={Inside} />
       <Redirect path="*" to="/door" />
     </Switch>
   );
