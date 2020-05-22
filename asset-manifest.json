@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/the-door/static/js/main.688b3c44.chunk.js",
-    "main.js.map": "/the-door/static/js/main.688b3c44.chunk.js.map",
+    "main.js": "/the-door/static/js/main.a55fab38.chunk.js",
+    "main.js.map": "/the-door/static/js/main.a55fab38.chunk.js.map",
     "runtime-main.js": "/the-door/static/js/runtime-main.740d3adc.js",
     "runtime-main.js.map": "/the-door/static/js/runtime-main.740d3adc.js.map",
     "static/js/2.87eeff9e.chunk.js": "/the-door/static/js/2.87eeff9e.chunk.js",
     "static/js/2.87eeff9e.chunk.js.map": "/the-door/static/js/2.87eeff9e.chunk.js.map",
     "index.html": "/the-door/index.html",
-    "precache-manifest.6e3bf5491cfab25b234f6278a36dd9e0.js": "/the-door/precache-manifest.6e3bf5491cfab25b234f6278a36dd9e0.js",
+    "precache-manifest.a55466f566b930f24671f8dae8e49389.js": "/the-door/precache-manifest.a55466f566b930f24671f8dae8e49389.js",
     "service-worker.js": "/the-door/service-worker.js",
     "static/js/2.87eeff9e.chunk.js.LICENSE.txt": "/the-door/static/js/2.87eeff9e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.740d3adc.js",
     "static/js/2.87eeff9e.chunk.js",
-    "static/js/main.688b3c44.chunk.js"
+    "static/js/main.a55fab38.chunk.js"
   ]
 }
