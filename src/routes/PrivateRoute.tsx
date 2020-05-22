@@ -16,7 +16,7 @@ const PrivateRoute = ({
   return (
     <Route
       {...rest}
-      render={() => (canGetInside ? <Component /> : <Redirect to="/door" />)}
+      render={() => (canGetInside ? <Component /> : <Redirect to="/" />)}
     />
   );
 };
