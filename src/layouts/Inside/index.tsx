@@ -6,7 +6,7 @@ import { Container } from './styles';
 const Inside: React.FC = () => (
   <Container>
     <h1>Inside</h1>
-    <Link to="/door">Go inside</Link>
+    <Link to="/">Go inside</Link>
   </Container>
 );
 

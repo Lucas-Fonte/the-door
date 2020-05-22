@@ -12,6 +12,7 @@ const Door: React.FC = () => {
     const buff = Buffer.from(data.content, 'base64');
     const jsonResponse = JSON.parse(buff.toString('utf-8'));
 
+    console.log({ jsonResponse });
     if (jsonResponse.allowed) {
       setCanGetInside(true);
     }

@@ -12,6 +12,7 @@ const PrivateRoute = ({
   ...rest
 }: PrivateRouteProps) => {
   const { canGetInside } = privateRouteState || {};
+  console.log('here');
 
   return (
     <Route
