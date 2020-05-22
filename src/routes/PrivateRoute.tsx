@@ -8,10 +8,10 @@ interface PrivateRouteProps extends RouteProps {
 }
 const PrivateRoute = ({
   component: Component,
-  location,
+  location: { state },
   ...rest
 }: PrivateRouteProps) => {
-  const { canGetInside }: any = location?.state || {};
+  const { canGetInside } = state || {};
 
   return (
     <Route
