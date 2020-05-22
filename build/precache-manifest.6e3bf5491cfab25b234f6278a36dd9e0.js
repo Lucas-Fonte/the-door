@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "359994d95ef0a59d25f76bc61f700de7",
+    "revision": "95b519026ce72fd36d130a1c654c2d6d",
     "url": "/the-door/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-door/static/js/2.87eeff9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "535161b27743b7717148",
-    "url": "/the-door/static/js/main.58e8bf6a.chunk.js"
+    "revision": "37d8974525bb599136ea",
+    "url": "/the-door/static/js/main.688b3c44.chunk.js"
   },
   {
     "revision": "8f2da9ac63cb56ead1db",

@@ -12,12 +12,10 @@ const PrivateRoute = ({
   ...rest
 }: PrivateRouteProps) => {
   const { canGetInside } = privateRouteState || {};
-  console.log('here');
-
   return (
     <Route
       {...rest}
-      render={() => (canGetInside ? <Component /> : <Redirect to="/" />)}
+      render={() => (canGetInside ? <Component /> : <Redirect to="/door" />)}
     />
   );
 };

@@ -7,9 +7,9 @@ import Inside from '../layouts/Inside';
 export default function Routes() {
   return (
     <Switch>
-      <PublicRoute path="/" component={Door} />
+      <PublicRoute path="/door" component={Door} />
       <PrivateRoute path="/inside" component={Inside} />
-      <Redirect path="*" to="/" />
+      <Redirect path="*" to="/door" />
     </Switch>
   );
 }
